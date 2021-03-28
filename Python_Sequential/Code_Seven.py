@@ -15,4 +15,10 @@ areaSquat = (side ** 2);
 
 print("Area squat is: %.2f" %(areaSquat)," cm² ")
 
+#Calculating and printing value double of area squat
+
+areaDoubleSquat = (areaSquat * 2);
+
+#printing value
+print("Value double of area squat: %.2f " %(areaDoubleSquat)," cm² ")
 
