@@ -15,13 +15,13 @@ print("You average is partial %.2f " %(average))
 
 #Checking values of average
 if(average == 10.0):
-    print("Approved with distinction")
+    print("Aproved with distinction")
     print("Average is %.2f " %(average))
 elif(average < 7.0 and average > 0):
     print("Reproved")
     print("Average is: %.2f " %(average))
 elif(average >= 7 and average < 9.9):
-    print("Approved")
+    print("Aproved")
     print("Average is: %.2f " %(average))
 else:
     print("Average is invalid")
