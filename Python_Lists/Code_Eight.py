@@ -30,5 +30,15 @@ for x in valuesList:
 
 print("List of numbers double is: ",listDoublesNumbers)
 
+sumNumbers = 0
+
+
+#Sum of numbers in list
+for x in listDoublesNumbers:
+    sumNumbers += x
+
+
+#Printing numbers of list
+print("List numbers sum of double: ",sumNumbers)
 
 
