@@ -6,13 +6,20 @@ Author = francisco Junior
 
 sumAnswerYes = 0
 
-for x in range(0,1):
-    print("Calling for victim?")
-    print("You here in local of crime?")
-    print("You living in local less?")
-    print("You should for victim?")
-    print("You worked with victim?")
 
-#list for adding answer of questions
+#Questions for detective
+questions = ('Voce telefonou para a vitima? ',
+             'Voce esteve no local do crime? ',
+             'Voce mora perto da vitima? ',
+             'Voce devia para a vitima? ',
+             'Voce trabalhou para a vitima? ')
+
+
+#Creating list for adding answer
+
 answer = []
+
+
+for question in questions:
+    answer.append(input(question).upper())
 
